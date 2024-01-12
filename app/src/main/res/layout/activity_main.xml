@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_x="160dp"
+        android:layout_y="60dp"
+        android:textSize="20dp"
+
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:ems="10"
+        android:layout_x="100dp"
+        android:layout_y="100dp"
+        android:hint="Enter name "
+        android:minHeight="48dp"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_x="170dp"
+        android:layout_y="160dp"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:ems="5"
+        android:layout_x="140dp"
+        android:layout_y="210dp"
+        android:hint="Enter Age "
+        android:inputType="date"
+        android:minHeight="48dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moblie"
+        android:layout_x="160dp"
+        android:layout_y="280dp"
+        android:textSize="20dp"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:ems="10"
+        android:layout_x="100dp"
+        android:layout_y="340dp"
+        android:hint="Enter Mobile no. "
+        android:inputType="phone"
+        android:minHeight="48dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btn"
+        android:layout_x="160dp"
+        android:layout_y="430dp"
+
+        />
+
+</AbsoluteLayout>
